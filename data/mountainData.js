@@ -322,7 +322,7 @@ const mountainsArray = [
         name: "Bondcliff",
         elevation: 4265,
         effort: "Strenuous",
-        img: "Bond-StoryImage_3.jpg",
+        img: "bondcliff.jpeg",
         desc: "Bondcliff (4,265 ft.), along with neighboring Mt. Guyot and Mt. Bond, offers some of the most stunning views in the Whites, with virtually no sign of roads or buildings visible from the summit.",
         coords: {
             lat: 44.139841,
