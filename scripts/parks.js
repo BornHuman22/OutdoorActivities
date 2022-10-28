@@ -45,6 +45,5 @@ document.addEventListener("DOMContentLoaded", () => {
     select.addEventListener("change", applyFilters);
     selectType.addEventListener("change", applyFilters);
 
-    //SHOW ALL CARDS
-    //showCards(nationalParksArray, results);
+    
 });

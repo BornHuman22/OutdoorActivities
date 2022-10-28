@@ -16,7 +16,25 @@ function mountainCard(item) {
     card.classList.add("card");
     card.appendChild(mountainImage(item));    
     card.appendChild(mountainTitle(item));
+    card.appendChild(mountainInfo(item));    
+    card.appendChild(mountainLevel(item));
     return card;
+}
+
+function mountainInfo(item) {
+    const info = document.createElement("p");
+    info.classList.add("card-description");
+    info.innerHTML= "<b>Description: </b><br>";
+    info.innerHTML += item.desc;
+    return info;
+}
+
+function mountainLevel(item) {
+    const level = document.createElement("p");
+    level.classList.add("card-mtnLevel");
+    level.innerHTML = "<b>Effort Level: </b><br>";
+    level.innerHTML += item.effort;
+    return level;
 }
 
 document.addEventListener("DOMContentLoaded",()=>{

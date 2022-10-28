@@ -8,6 +8,7 @@ const nationalParksArray = [
     ZipCode: 42748,
     Phone: "(270) 358-3137",
     Fax: "(270) 358-3874",
+    Visit: "https://www.nps.gov/abli/index.htm",
     Latitude: 37.535671,
     Longitude: -85.7340637,
     Location: {
@@ -47,6 +48,7 @@ const nationalParksArray = [
     ZipCode: 2169,
     Phone: "(617) 770-1175",
     Fax: "(617) 472-7562",
+    Visit: "https://www.nps.gov/adam/index.htm",
     Latitude: 42.256412,
     Longitude: -71.011167,
     Location: {
@@ -66,6 +68,7 @@ const nationalParksArray = [
     ZipCode: 10007,
     Phone: "(212) 637-2019",
     Fax: "(212) 227-2026",
+    Visit: "https://www.nps.gov/afbg/index.htm",
     Latitude: 40.7150514,
     Longitude: -74.0053687,
     Location: {
@@ -85,6 +88,7 @@ const nationalParksArray = [
     ZipCode: 96740,
     Phone: 0,
     Fax: "(808) 329-2597",
+    Visit: "https://www.nps.gov/alka/index.htm",
     Latitude: 19.689206,
     Longitude: -156.021329,
     Location: {
@@ -104,6 +108,7 @@ const nationalParksArray = [
     ZipCode: 99613,
     Phone: 0,
     Fax: "(907) 246-2116",
+    Visit: "https://www.nps.gov/alag/index.htm",
     Latitude: 58.756222,
     Longitude: -156.51724,
     Location: {
@@ -142,6 +147,7 @@ const nationalParksArray = [
     State: "Alaska",
     ZipCode: 99685,
     Phone: "(907) 581-1276",
+    Visit: "https://www.nps.gov/aleu/index.htm",
     Fax: 0,
     Latitude: 53.8845397,
     Longitude: -166.5533823,
@@ -162,6 +168,7 @@ const nationalParksArray = [
     ZipCode: 16641,
     Phone: "(814) 886-6150",
     Fax: "(814) 884-0206",
+    Visit: "https://www.nps.gov/alpo/index.htm",
     Latitude: 40.4692629,
     Longitude: -78.5437922,
     Location: {
@@ -181,6 +188,7 @@ const nationalParksArray = [
     ZipCode: 96950,
     Phone: "(670) 234-7207 ext. 2020",
     Fax: "(670) 234-6698",
+    Visit: "https://www.nps.gov/amme/index.htm",
     Latitude: 15.21226,
     Longitude: 145.724335,
     Location: {
@@ -200,6 +208,7 @@ const nationalParksArray = [
     ZipCode: 78840,
     Phone: "(830) 775-7491",
     Fax: "(830) 778-9248",
+    Visit: "https://www.nps.gov/amis/index.htm",
     Latitude: 29.4216948,
     Longitude: -100.9068262,
     Location: {
@@ -219,6 +228,7 @@ const nationalParksArray = [
     ZipCode: 31711,
     Phone: "(229) 924-0343",
     Fax: "(229) 924-1086",
+    Visit: "https://www.nps.gov/ande/index.htm",
     Latitude: 32.197776,
     Longitude: -84.129294,
     Location: {

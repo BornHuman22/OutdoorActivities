@@ -5,7 +5,7 @@ const navURLs = [
     {name: "Mountains", url: "mountains.html"},
 ];
 
-//helper/factory function makes a new DOM Element
+
 function navLink(item){
     let a = document.createElement("a");
     a.href = item.url;
@@ -14,7 +14,5 @@ function navLink(item){
 }
 document.addEventListener("DOMContentLoaded", () => {
     const nav = document.getElementById("nav");
-    //innerHTML += appending strings from javascript template ``
-    // navURLs.forEach(item => nav.innerHTML += `<a href="${item.url}">${item.name}</a>`);
     navURLs.forEach(item => nav.appendChild(navLink(item)));
 });
